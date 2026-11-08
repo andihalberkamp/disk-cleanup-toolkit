@@ -1,0 +1,33 @@
+{
+  "name": "disk-cleanup-toolkit",
+  "version": "1.0.0",
+  "description": "Find big, old and duplicate files and get a safe, step-by-step plan to free up disk space. Report-only: never deletes anything.",
+  "bin": {
+    "disk-cleanup-scan": "bin/disk-cleanup-scan.js",
+    "free-up-space": "bin/free-up-space.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "scan": "node bin/disk-cleanup-scan.js",
+    "plan": "node bin/free-up-space.js"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "keywords": [
+    "disk-cleanup",
+    "disk-space",
+    "duplicate-files",
+    "duplicate-finder",
+    "cleanup",
+    "storage",
+    "cli",
+    "free-space"
+  ],
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT"
+}

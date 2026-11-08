@@ -1,0 +1,13 @@
+node_modules/
+npm-debug.log*
+
+# Reports created by the tools
+cleanup_report.txt
+cleanup_report.csv
+free_space_plan.txt
+free_space_plan.csv
+
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
